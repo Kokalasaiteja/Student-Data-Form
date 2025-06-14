@@ -34,13 +34,9 @@ form.addEventListener('submit', (e) => {
           body: JSON.stringify(dataToSend)
         })
         .then(response => {
-          if (response.ok) {
-            messageDiv.textContent = 'Data submitted successfully!';
-            form.reset();
-          } else {
-            messageDiv.textContent = 'Data submitted successfully...';
-            form.reset();
-          }
+          // Open confirmation page in new tab after submission
+          window.open('confirmation.html', '_blank');
+          form.reset();
         })
         .catch((error) => {
           messageDiv.textContent = 'Error submitting data.';

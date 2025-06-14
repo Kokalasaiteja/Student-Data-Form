@@ -31,12 +31,12 @@ A responsive web form that allows users to submit their details (name, email, co
 
 ## 📂 File Structure
 
-📁 student-data-form/
-├── index.html # Main HTML form
-├── form.css # Stylesheet for the form
-├── form.js # JavaScript for submission logic
-├── README.md # Project documentation
-└── Code.gs # Helps to sumbit form in Google Sheet
+📁 student-data-form/ <br>
+├── index.html # Main HTML form <br>
+├── form.css # Stylesheet for the form <br>
+├── form.js # JavaScript for submission logic <br>
+├── README.md # Project documentation <br>
+└── Code.gs # Helps to sumbit form in Google Sheet <br>
 
 
 ---
@@ -45,46 +45,50 @@ A responsive web form that allows users to submit their details (name, email, co
 
 ### 1. Clone the Repository
 
-git clone https://github.com/yourusername/student-data-form.git
-cd student-data-form
+-> git clone https://github.com/yourusername/student-data-form.git
+-> cd student-data-form
 
 ### 2. Update the Google Script URL
-In form.js, replace the googleScriptURL with your own Google Apps Script deployment URL:
+-> In form.js, replace the googleScriptURL with your own Google Apps Script deployment URL:
 
-const googleScriptURL = 'YOUR_DEPLOYED_SCRIPT_URL';
+-> const googleScriptURL = 'YOUR_DEPLOYED_SCRIPT_URL';
 
-📖 Google Apps Script Setup Guide
+---
+## 📖 Google Apps Script Setup Guide
 
 ### 🧪 How to Use
-Fill in the Name, Email, Contact Info, and Upload a Screenshot.
+-> Fill in the Name, Email, Contact Info, and Upload a Screenshot.
 
-Click Submit – data is sent to Google Sheet + image to Google Drive.
+-> Click Submit – data is sent to Google Sheet + image to Google Drive.
 
-Click Open WhatsApp to contact using a pre-filled message.
+-> Click Open WhatsApp to contact using a pre-filled message.
 
+---
 ### 📱 Responsive Design
-Designed to work smoothly on mobile and desktop
+-> Designed to work smoothly on mobile and desktop
 
-Media queries ensure form adapts on smaller screens
+-> Media queries ensure form adapts on smaller screens
 
+---
 ### 💬 WhatsApp Integration
-A button opens this link in a new tab:
-
+-> A button opens this link in a new tab:
 https://wa.me/?text=Hello%20I%20am%20Ram
 You can modify the message dynamically in form.js.
 
+---
 ### 📡 Google Apps Script Backend
 This Google Apps Script receives form data (including a base64-encoded image), uploads the image to Google Drive, and logs the data to a Google Sheet.
 
 ### 🔧 Script Features
-Accepts JSON POST requests from the frontend.
+-> Accepts JSON POST requests from the frontend.
 
-Decodes a base64 image and uploads it to a Drive folder (StudentFormUploads).
+-> Decodes a base64 image and uploads it to a Drive folder (StudentFormUploads).
 
-Appends the following to a Google Sheet:
+-> Appends the following to a Google Sheet:
 
-Timestamp, Name, Email, Contact Info, Uploaded image's Google Drive URL
+-> Timestamp, Name, Email, Contact Info, Uploaded image's Google Drive URL
 
+---
 ### 🪜 How to Set Up
 1. Open Google Apps Script
 2. Create a new script in your Google account.
@@ -109,9 +113,11 @@ const googleScriptURL = 'YOUR_DEPLOYMENT_URL';
   "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUg..."
 }
 
+---
 ### 🧾 License
 This project is open source and available under the MIT License.
 
+---
 ### 🙌 Author
 Kokala Sai Teja
 📧 kokalasaiteja@gmail.com
@@ -119,3 +125,4 @@ Kokala Sai Teja
 🔗 https://github.com/Kokalasaiteja
 
 ### 📸 Screenshot
+![image](https://github.com/user-attachments/assets/e5686f96-551c-4ff4-b156-267f2f4bef0e)

@@ -4,10 +4,9 @@ A responsive web form that allows users to submit their details (name, email, co
 
 ## 🚀 Live Demo
 
-🔗 [Click here to try it](#) <!-- Replace with your live deployment URL -->
+🔗 [Click here to try it](https://kokalasaiteja.github.io/Student-Data-Form/)
 
 ---
-
 ## ✨ Features
 
 - 📥 Collects Name, Email, Contact Info, and Screenshot Image

@@ -4,7 +4,7 @@ A responsive web form that allows users to submit their details (name, email, co
 
 ## 🚀 Live Demo
 
-🔗 [Click here to try it](https://kokalasaiteja.github.io/Student-Data-Form/)
+### 🔗 [Click here to try it](https://kokalasaiteja.github.io/Student-Data-Form/)
 
 ---
 ## ✨ Features
@@ -20,11 +20,11 @@ A responsive web form that allows users to submit their details (name, email, co
 
 ## 🛠️ Tech Stack
 
-**HTML/CSS** -> Frontend structure and styling 
-**JavaScript** -> Dynamic behavior and data submission 
-**Google Apps Script** -> Backend to store form data and image
-**Google Sheets** -> Stores user data 
-**Google Drive** -> Stores uploaded images 
+**HTML/CSS** -> Frontend structure and styling <br>
+**JavaScript** -> Dynamic behavior and data submission <br> 
+**Google Apps Script** -> Backend to store form data and image <br>
+**Google Sheets** -> Stores user data <br>
+**Google Drive** -> Stores uploaded images <br> 
 
 ---
 
@@ -34,8 +34,9 @@ A responsive web form that allows users to submit their details (name, email, co
 ├── index.html # Main HTML form <br>
 ├── form.css # Stylesheet for the form <br>
 ├── form.js # JavaScript for submission logic <br>
+├── confirmation.html # confirmation page after submitting <br>
 ├── README.md # Project documentation <br>
-└── Code.gs # Helps to sumbit form in Google Sheet <br>
+└── Code.gs # Helps to submit form in Google Sheet <br>
 
 
 ---
@@ -48,15 +49,15 @@ A responsive web form that allows users to submit their details (name, email, co
 -> cd student-data-form
 
 ### 2. Update the Google Script URL
--> In form.js, replace the googleScriptURL with your own Google Apps Script deployment URL:
 
+-> In form.js, replace the googleScriptURL with your own Google Apps Script deployment URL:
 -> const googleScriptURL = 'YOUR_DEPLOYED_SCRIPT_URL';
 
 ---
 ## 📖 Google Apps Script Setup Guide
 
 ### 🧪 How to Use
--> Fill in the Name, Email, Contact Info, and Upload a Screenshot.
+-> Fill in the Name, Email, Contact Numer, and Upload a Screenshot.
 
 -> Click Submit – data is sent to Google Sheet + image to Google Drive.
 
@@ -70,9 +71,7 @@ A responsive web form that allows users to submit their details (name, email, co
 
 ---
 ### 💬 WhatsApp Integration
--> A button opens this link in a new tab:
-https://wa.me/?text=Hello%20I%20am%20Ram
-You can modify the message dynamically in form.js.
+-> A button opens this link in a new tab: https://wa.me/?text=Hello%20I%20am%20Ram. You can modify the message dynamically in form.js.
 
 ---
 ### 📡 Google Apps Script Backend
